@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Agent Web Visual Test POC Suite" parallel="tests" thread-count="1">
+  <listeners>
+     <listener class-name="com.Test.listners.VisualTestListners"></listener>
+  </listeners>
+    <test name="Agent - Login Flow">
+        <parameter name="platformType" value="web"/>
+        <parameter name="platformName" value="chrome"/>
+        <classes>
+            <class name="com.cinch.visualTest.StoreImage"/>           
+        </classes>
+    </test> 
+  </suite>
+    
+  
+      
