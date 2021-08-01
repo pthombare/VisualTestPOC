@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class baseTest {
 	
-	public static  String driverPath="C:\\Users\\al3115\\Desktop\\chromedriver.exe";
+	public static  String driverPath="C:\\Users\\Shree\\Desktop\\chromedriver.exe";
 	static WebDriver driver;
 	public void intialize() {
 		System.setProperty("webdriver.chrome.driver",driverPath);
